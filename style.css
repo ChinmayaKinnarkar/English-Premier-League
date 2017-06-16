@@ -80,7 +80,25 @@ h2{
     color: inherit;
 }
 
-@media (max-width: 600px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	.footer {
+        padding: 35px;
+    }
+    .footer .footer-motto {
+        font-size: 18px;
+    }
+    .footer .footer-name {
+        font-size: 12px;
+    }
+    .footer .footer-links {
+        font-size: 14px;
+        padding: 25px 0 20px;
+    }
+    .footer .footer-links a {
+        line-height: 1.8;
+    }
+}
+@media screen (min-width: 768px) {
     .footer {
         padding: 35px;
     }
@@ -98,3 +116,40 @@ h2{
         line-height: 1.8;
     }
 }
+@media screen (min-width : 992px){
+	.footer {
+        padding: 35px;
+    }
+    .footer .footer-motto {
+        font-size: 18px;
+    }
+    .footer .footer-name {
+        font-size: 12px;
+    }
+    .footer .footer-links {
+        font-size: 14px;
+        padding: 25px 0 20px;
+    }
+    .footer .footer-links a {
+        line-height: 1.8;
+    }
+}
+@media screen (min-width : 1200px){
+	.footer {
+        padding: 35px;
+    }
+    .footer .footer-motto {
+        font-size: 18px;
+    }
+    .footer .footer-name {
+        font-size: 12px;
+    }
+    .footer .footer-links {
+        font-size: 14px;
+        padding: 25px 0 20px;
+    }
+    .footer .footer-links a {
+        line-height: 1.8;
+    }
+}
+
